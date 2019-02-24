@@ -2,7 +2,7 @@ _extends: .github
 
 repository:
   name: docker
-  description: 🐋 Docker Template for Colophon
-  topics: colophon, docker
-  homepage: https://colophon.id
+  description: 🐋 Docker Template for OrgDependencies
+  topics: orgdependencies, docker
+  homepage: https://dependencies.org
   has_issues: true

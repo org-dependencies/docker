@@ -23,11 +23,11 @@ services:
     build: .
 
     ports: 
-      - ${COLOPHON_PORT}:${COLOPHON_PORT}
+      - ${DEPENDENCIES_APP_PORT}:${DEPENDENCIES_APP_PORT}
 
     volumes:
       - ./key.pem:/app/key
-      - sql:/usr/lib/node_modules/@colophon/app/database
+      - sql:/usr/lib/node_modules/@dependencies/app/database
 
     links:
       - db

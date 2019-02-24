@@ -1,8 +1,8 @@
-# Colophon Docker
+# OrgDependencies Docker
 
 [![License][license-image]][license-url]
 
-> Docker / Docker Compose Template for Colophon
+> Docker / Docker Compose Template for OrgDependencies
 
 ## Usage
 
@@ -31,14 +31,14 @@ $ docker-compose up
 
 ### Database Initialization
 
-`docker-composer` will [automatically apply](./docker-compose.yml#L13) the mapped Colophon database schema.  
+`docker-composer` will [automatically apply](./docker-compose.yml#L13) the mapped OrgDependencies database schema.  
 
 However, this is not recommended for production deployemnts. Please use an appropriately managed/scaled database server.
 
 ---
-> Website: [colophon.id](https://colophon.id) &bull; 
-> Github: [@project-colophon](https://github.com/project-colophon) &bull; 
-> Twitter: [@ColophonID](https://twitter.com/ColophonID)
+> Website: [dependencies.org](https://dependencies.org) &bull; 
+> Github: [@org-dependencies](https://github.com/org-dependencies) &bull; 
+> Twitter: [@OrgDependencies](https://twitter.com/OrgDependencies)
 
 [license-url]: LICENSE
-[license-image]: https://img.shields.io/github/license/project-colophon/docker.svg?style=for-the-badge&logo=circleci
+[license-image]: https://img.shields.io/github/license/org-dependencies/docker.svg?style=for-the-badge&logo=circleci
