@@ -26,7 +26,7 @@ services:
       - ${DEPENDENCIES_APP_PORT}:${DEPENDENCIES_APP_PORT}
 
     volumes:
-      - ./key.pem:/app/key
+      - ./key.pem:/app/key.pem
       - sql:/usr/lib/node_modules/@dependencies/app/database
 
     links:
@@ -36,7 +36,7 @@ services:
       - db
 
     environment:
-      GITHUB_PRIVATE_KEY_PATH: ./key
+      GITHUB_PRIVATE_KEY_PATH: ./key.pem
       POSTGRES_HOST: db
 
 volumes:

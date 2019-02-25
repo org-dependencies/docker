@@ -7,8 +7,8 @@
 ## Usage
 
 ### Environment Setup
-Copy `.env.example` into `.env` and populate with your environment configuration.
 
+Copy `.env.example` into `.env` and populate with your environment configuration.
 
 ### Docker Compose
 
@@ -31,9 +31,9 @@ $ docker-compose up
 
 ### Database Initialization
 
-`docker-composer` will [automatically apply](./docker-compose.yml#L13) the mapped OrgDependencies database schema.  
+`docker-compose` will [automatically apply](./docker-compose.yml#L13) the mapped OrgDependencies database schema.
 
-However, this is not recommended for production deployemnts. Please use an appropriately managed/scaled database server.
+However, this is not recommended for production deployments. Please use an appropriately managed/scaled database server.
 
 ---
 > Website: [dependencies.org](https://dependencies.org) &bull; 
